@@ -62,6 +62,12 @@ decrypted_message = decrypt_message(encrypted_message, key_pair)
 
 print(decrypted_message)
 
-messrisp = "Ora sono in aula a studiare Sicurezza2 a Laurentina"
+messrisp = "Buongiorno a tutti, questa è la crittografia asimmetrica!"
 cifra = encrypt_message(messrisp, public_key_Ed)
 print(cifra)
+
+
+decrypted_message = decrypt_message(encrypted_message, private_key)
+print(decrypted_message)
+
+
